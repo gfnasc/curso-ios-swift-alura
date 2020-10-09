@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B751133525303757007C5D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751133425303757007C5D35 /* AppDelegate.swift */; };
+		B751133725303757007C5D35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751133625303757007C5D35 /* SceneDelegate.swift */; };
+		B751133925303757007C5D35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751133825303757007C5D35 /* ViewController.swift */; };
+		B751133C25303757007C5D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B751133A25303757007C5D35 /* Main.storyboard */; };
+		B751133E25303759007C5D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B751133D25303759007C5D35 /* Assets.xcassets */; };
+		B751134125303759007C5D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B751133F25303759007C5D35 /* LaunchScreen.storyboard */; };
+		B751134C25303759007C5D35 /* curso_ios_swift_aluraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751134B25303759007C5D35 /* curso_ios_swift_aluraTests.swift */; };
+		B751135725303759007C5D35 /* curso_ios_swift_aluraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751135625303759007C5D35 /* curso_ios_swift_aluraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B751134825303759007C5D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B751132925303756007C5D35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B751133025303756007C5D35;
+			remoteInfo = "curso-ios-swift-alura";
+		};
+		B751135325303759007C5D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B751132925303756007C5D35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B751133025303756007C5D35;
+			remoteInfo = "curso-ios-swift-alura";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B751133125303756007C5D35 /* curso-ios-swift-alura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "curso-ios-swift-alura.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B751133425303757007C5D35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B751133625303757007C5D35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B751133825303757007C5D35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B751133B25303757007C5D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B751133D25303759007C5D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B751134025303759007C5D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B751134225303759007C5D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B751134725303759007C5D35 /* curso-ios-swift-aluraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "curso-ios-swift-aluraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B751134B25303759007C5D35 /* curso_ios_swift_aluraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curso_ios_swift_aluraTests.swift; sourceTree = "<group>"; };
+		B751134D25303759007C5D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B751135225303759007C5D35 /* curso-ios-swift-aluraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "curso-ios-swift-aluraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B751135625303759007C5D35 /* curso_ios_swift_aluraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curso_ios_swift_aluraUITests.swift; sourceTree = "<group>"; };
+		B751135825303759007C5D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B751132E25303756007C5D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B751134425303759007C5D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B751134F25303759007C5D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B751132825303756007C5D35 = {
+			isa = PBXGroup;
+			children = (
+				B751133325303756007C5D35 /* curso-ios-swift-alura */,
+				B751134A25303759007C5D35 /* curso-ios-swift-aluraTests */,
+				B751135525303759007C5D35 /* curso-ios-swift-aluraUITests */,
+				B751133225303756007C5D35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B751133225303756007C5D35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B751133125303756007C5D35 /* curso-ios-swift-alura.app */,
+				B751134725303759007C5D35 /* curso-ios-swift-aluraTests.xctest */,
+				B751135225303759007C5D35 /* curso-ios-swift-aluraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B751133325303756007C5D35 /* curso-ios-swift-alura */ = {
+			isa = PBXGroup;
+			children = (
+				B751133425303757007C5D35 /* AppDelegate.swift */,
+				B751133625303757007C5D35 /* SceneDelegate.swift */,
+				B751133825303757007C5D35 /* ViewController.swift */,
+				B751133A25303757007C5D35 /* Main.storyboard */,
+				B751133D25303759007C5D35 /* Assets.xcassets */,
+				B751133F25303759007C5D35 /* LaunchScreen.storyboard */,
+				B751134225303759007C5D35 /* Info.plist */,
+			);
+			path = "curso-ios-swift-alura";
+			sourceTree = "<group>";
+		};
+		B751134A25303759007C5D35 /* curso-ios-swift-aluraTests */ = {
+			isa = PBXGroup;
+			children = (
+				B751134B25303759007C5D35 /* curso_ios_swift_aluraTests.swift */,
+				B751134D25303759007C5D35 /* Info.plist */,
+			);
+			path = "curso-ios-swift-aluraTests";
+			sourceTree = "<group>";
+		};
+		B751135525303759007C5D35 /* curso-ios-swift-aluraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B751135625303759007C5D35 /* curso_ios_swift_aluraUITests.swift */,
+				B751135825303759007C5D35 /* Info.plist */,
+			);
+			path = "curso-ios-swift-aluraUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B751133025303756007C5D35 /* curso-ios-swift-alura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B751135B25303759007C5D35 /* Build configuration list for PBXNativeTarget "curso-ios-swift-alura" */;
+			buildPhases = (
+				B751132D25303756007C5D35 /* Sources */,
+				B751132E25303756007C5D35 /* Frameworks */,
+				B751132F25303756007C5D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "curso-ios-swift-alura";
+			productName = "curso-ios-swift-alura";
+			productReference = B751133125303756007C5D35 /* curso-ios-swift-alura.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B751134625303759007C5D35 /* curso-ios-swift-aluraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B751135E25303759007C5D35 /* Build configuration list for PBXNativeTarget "curso-ios-swift-aluraTests" */;
+			buildPhases = (
+				B751134325303759007C5D35 /* Sources */,
+				B751134425303759007C5D35 /* Frameworks */,
+				B751134525303759007C5D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B751134925303759007C5D35 /* PBXTargetDependency */,
+			);
+			name = "curso-ios-swift-aluraTests";
+			productName = "curso-ios-swift-aluraTests";
+			productReference = B751134725303759007C5D35 /* curso-ios-swift-aluraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B751135125303759007C5D35 /* curso-ios-swift-aluraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B751136125303759007C5D35 /* Build configuration list for PBXNativeTarget "curso-ios-swift-aluraUITests" */;
+			buildPhases = (
+				B751134E25303759007C5D35 /* Sources */,
+				B751134F25303759007C5D35 /* Frameworks */,
+				B751135025303759007C5D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B751135425303759007C5D35 /* PBXTargetDependency */,
+			);
+			name = "curso-ios-swift-aluraUITests";
+			productName = "curso-ios-swift-aluraUITests";
+			productReference = B751135225303759007C5D35 /* curso-ios-swift-aluraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B751132925303756007C5D35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B751133025303756007C5D35 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					B751134625303759007C5D35 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B751133025303756007C5D35;
+					};
+					B751135125303759007C5D35 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B751133025303756007C5D35;
+					};
+				};
+			};
+			buildConfigurationList = B751132C25303756007C5D35 /* Build configuration list for PBXProject "curso-ios-swift-alura" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B751132825303756007C5D35;
+			productRefGroup = B751133225303756007C5D35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B751133025303756007C5D35 /* curso-ios-swift-alura */,
+				B751134625303759007C5D35 /* curso-ios-swift-aluraTests */,
+				B751135125303759007C5D35 /* curso-ios-swift-aluraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B751132F25303756007C5D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B751134125303759007C5D35 /* LaunchScreen.storyboard in Resources */,
+				B751133E25303759007C5D35 /* Assets.xcassets in Resources */,
+				B751133C25303757007C5D35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B751134525303759007C5D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B751135025303759007C5D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B751132D25303756007C5D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B751133925303757007C5D35 /* ViewController.swift in Sources */,
+				B751133525303757007C5D35 /* AppDelegate.swift in Sources */,
+				B751133725303757007C5D35 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B751134325303759007C5D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B751134C25303759007C5D35 /* curso_ios_swift_aluraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B751134E25303759007C5D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B751135725303759007C5D35 /* curso_ios_swift_aluraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B751134925303759007C5D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B751133025303756007C5D35 /* curso-ios-swift-alura */;
+			targetProxy = B751134825303759007C5D35 /* PBXContainerItemProxy */;
+		};
+		B751135425303759007C5D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B751133025303756007C5D35 /* curso-ios-swift-alura */;
+			targetProxy = B751135325303759007C5D35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B751133A25303757007C5D35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B751133B25303757007C5D35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B751133F25303759007C5D35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B751134025303759007C5D35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B751135925303759007C5D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B751135A25303759007C5D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B751135C25303759007C5D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "curso-ios-swift-alura/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.gfnasc.curso-ios-swift-alura";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B751135D25303759007C5D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "curso-ios-swift-alura/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.gfnasc.curso-ios-swift-alura";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B751135F25303759007C5D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "curso-ios-swift-aluraTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.gfnasc.curso-ios-swift-aluraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/curso-ios-swift-alura.app/curso-ios-swift-alura";
+			};
+			name = Debug;
+		};
+		B751136025303759007C5D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "curso-ios-swift-aluraTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.gfnasc.curso-ios-swift-aluraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/curso-ios-swift-alura.app/curso-ios-swift-alura";
+			};
+			name = Release;
+		};
+		B751136225303759007C5D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "curso-ios-swift-aluraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.gfnasc.curso-ios-swift-aluraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "curso-ios-swift-alura";
+			};
+			name = Debug;
+		};
+		B751136325303759007C5D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "curso-ios-swift-aluraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.gfnasc.curso-ios-swift-aluraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "curso-ios-swift-alura";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B751132C25303756007C5D35 /* Build configuration list for PBXProject "curso-ios-swift-alura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B751135925303759007C5D35 /* Debug */,
+				B751135A25303759007C5D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B751135B25303759007C5D35 /* Build configuration list for PBXNativeTarget "curso-ios-swift-alura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B751135C25303759007C5D35 /* Debug */,
+				B751135D25303759007C5D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B751135E25303759007C5D35 /* Build configuration list for PBXNativeTarget "curso-ios-swift-aluraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B751135F25303759007C5D35 /* Debug */,
+				B751136025303759007C5D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B751136125303759007C5D35 /* Build configuration list for PBXNativeTarget "curso-ios-swift-aluraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B751136225303759007C5D35 /* Debug */,
+				B751136325303759007C5D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B751132925303756007C5D35 /* Project object */;
+}
