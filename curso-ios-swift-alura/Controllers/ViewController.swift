@@ -8,12 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    @IBOutlet var nomeTextField:UITextField!
+    
+    @IBOutlet weak var felicidadeTextField: UITextField!
+    
+    @IBAction func adicionar(_ sender: Any) {
+        
     }
-
-
 }
 

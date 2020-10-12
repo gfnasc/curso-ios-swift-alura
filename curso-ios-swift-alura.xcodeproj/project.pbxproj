@@ -15,6 +15,8 @@
 		B751134125303759007C5D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B751133F25303759007C5D35 /* LaunchScreen.storyboard */; };
 		B751134C25303759007C5D35 /* curso_ios_swift_aluraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751134B25303759007C5D35 /* curso_ios_swift_aluraTests.swift */; };
 		B751135725303759007C5D35 /* curso_ios_swift_aluraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751135625303759007C5D35 /* curso_ios_swift_aluraUITests.swift */; };
+		B76F01C62533DD030032A513 /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F01C52533DD030032A513 /* Refeicao.swift */; };
+		B76F01CB2533DE7C0032A513 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F01CA2533DE7C0032A513 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B751135225303759007C5D35 /* curso-ios-swift-aluraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "curso-ios-swift-aluraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B751135625303759007C5D35 /* curso_ios_swift_aluraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curso_ios_swift_aluraUITests.swift; sourceTree = "<group>"; };
 		B751135825303759007C5D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76F01C52533DD030032A513 /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		B76F01CA2533DE7C0032A513 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,9 @@
 			children = (
 				B751133425303757007C5D35 /* AppDelegate.swift */,
 				B751133625303757007C5D35 /* SceneDelegate.swift */,
-				B751133825303757007C5D35 /* ViewController.swift */,
-				B751133A25303757007C5D35 /* Main.storyboard */,
+				B76F01D22533E1A80032A513 /* Models */,
+				B76F01D42533E2170032A513 /* Views */,
+				B76F01D32533E1E90032A513 /* Controllers */,
 				B751133D25303759007C5D35 /* Assets.xcassets */,
 				B751133F25303759007C5D35 /* LaunchScreen.storyboard */,
 				B751134225303759007C5D35 /* Info.plist */,
@@ -126,6 +131,31 @@
 				B751135825303759007C5D35 /* Info.plist */,
 			);
 			path = "curso-ios-swift-aluraUITests";
+			sourceTree = "<group>";
+		};
+		B76F01D22533E1A80032A513 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B76F01C52533DD030032A513 /* Refeicao.swift */,
+				B76F01CA2533DE7C0032A513 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B76F01D32533E1E90032A513 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B751133825303757007C5D35 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B76F01D42533E2170032A513 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B751133A25303757007C5D35 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76F01CB2533DE7C0032A513 /* Item.swift in Sources */,
 				B751133925303757007C5D35 /* ViewController.swift in Sources */,
 				B751133525303757007C5D35 /* AppDelegate.swift in Sources */,
 				B751133725303757007C5D35 /* SceneDelegate.swift in Sources */,
+				B76F01C62533DD030032A513 /* Refeicao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
